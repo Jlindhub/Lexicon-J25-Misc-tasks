@@ -31,7 +31,9 @@ public class arrayExample {
 
     public static void StudentListMaker(Scanner sc) {
         Random rand = new Random();
+
         String[] names = {"A","B","C","D","E","F","G","H","I","J","K","L","M","N"};
+
         for (String name : names) {
             students.add(new Student(name, rand.nextInt(0, 100) + 1));
         }
@@ -51,6 +53,7 @@ public class arrayExample {
         searcher(sc);
 
     }
+
     private static String grader(int score){
         String res;
         if(score >= 80){res = "A";}
