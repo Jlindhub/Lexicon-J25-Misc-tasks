@@ -2,7 +2,7 @@ import java.util.*;
 
 public class arrayExample {
 
-    public static void arrayEX() {
+    /*public static void arrayEX() {
 
         int[] fourFours = {4, 4, 4, 4};
         int[] fiveFives = {5, 5, 5, 5, 5};
@@ -17,7 +17,7 @@ public class arrayExample {
         System.out.println(Arrays.toString(sixSixes));
 
 
-        ArrayList<Integer> resizeMe = new ArrayList<Integer>();
+        ArrayList<Integer> resizeMe = new ArrayList<>();
         resizeMe.add(1);
         resizeMe.add(2);
         resizeMe.add(3);
@@ -25,7 +25,7 @@ public class arrayExample {
             System.out.println(integer);
         }
 
-    }
+    }*/
 
     static List<Student> students = new ArrayList<>();
 
