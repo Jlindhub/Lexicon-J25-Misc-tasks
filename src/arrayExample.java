@@ -46,8 +46,9 @@ public class arrayExample {
 
         System.out.println("full List and grades (* = above median)");
         for (Student student : students) {
-            System.out.println(student.name() +", " + student.grade() + ", " + grader(student.grade()));
+            System.out.print(student.name() +", " + student.grade() + ", " + grader(student.grade()));
             if(student.grade()>median){System.out.print("*");}
+            System.out.println();
         }
         //temp implement
         searcher(sc);
